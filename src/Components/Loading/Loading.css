@@ -1,0 +1,16 @@
+@keyframes spinner {
+  to {
+    transition: rotate(360deg);
+  }
+}
+
+.loading {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto;
+  margin-top: 160px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  border-top-color: var(--clr-primary-5);
+  animation: spinner 0.6s linear infinite;
+}
